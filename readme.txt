@@ -1,4 +1,4 @@
-Git is a version control system.
+﻿Git is a version control system.
 Git is free software.
 mkdir learngit
 
@@ -41,3 +41,12 @@ git reflog
 14、添加远程库
 git remote add origin git@github.com:yuyiqiushui/Bluetooth.git
 git push -u origin master
+
+15、从远程仓库克隆
+git clone git@github.com:yuyiqiushui/Bluetooth.git
+
+16、创建分支
+gir checkout -b branchname  ==1、 git branch branchname   2、git checkout branchname
+ 
+
+
