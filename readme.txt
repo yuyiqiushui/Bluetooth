@@ -48,5 +48,7 @@ git clone git@github.com:yuyiqiushui/Bluetooth.git
 16、创建分支
 gir checkout -b branchname  ==1、 git branch branchname   2、git checkout branchname
  
+17、解决冲突
+在先后两个分支修改内容，产生冲突后，手动更改，从新commit，合并分支
 
 
