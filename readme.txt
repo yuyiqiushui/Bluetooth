@@ -38,4 +38,6 @@ git reflog
 
 	场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
-
+14、添加远程库
+git remote add origin git@github.com:yuyiqiushui/Bluetooth.git
+git push -u origin master
