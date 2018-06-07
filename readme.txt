@@ -55,23 +55,24 @@ gir checkout -b branchname  ==1、 git branch branchname   2、git checkout bran
 17、解决冲突
 18、分支管理策略
 19、Bug分支
-首先存储当前分支
-git stash
-建立bug分支
-git checkout -b issue-101
-git add readme.txt
-git commit --m "解决issue-101bug"
-切换到主分支master
-git branch master
-合并分支
-git merge --no-off --m "合并分支" issue-101
-删除分支
-git branch -d issue-101
-恢复工作区
-git stash list
-git stash apply恢复
-git stash drop删除内容
-git stash pop恢复并删除
-git stash apply stash@{0}
-修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除
-当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop,回到工作现场
+	首先存储当前分支
+	git stash
+	建立bug分支
+	git checkout -b issue-101
+	git add readme.txt
+	git commit --m "解决issue-101bug"
+	切换到主分支master
+	git branch master
+	合并分支
+	git merge --no-off --m "合并分支" issue-101
+	删除分支
+	git branch -d issue-101
+	恢复工作区
+	git stash list
+	git stash apply恢复
+	git stash drop删除内容
+	git stash pop恢复并删除
+	git stash apply stash@{0}
+	修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除
+	当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop,回到工作现场
+20、future分支
